@@ -29,7 +29,9 @@ b = float(a)
 print(b)
 print(type(b))
 
-a = input("Enter a value:")
+
+
+a = input("Enter a value:")  
 b = a
 print(type(b))
 
