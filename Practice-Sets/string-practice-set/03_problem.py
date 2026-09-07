@@ -9,3 +9,4 @@ print(letter.find("  "))
 letter = "Hello Saniya, How are you ?"
 print(letter.find("Saniya"))
 
+#Returns index value 

@@ -7,9 +7,22 @@ p2 = "buy now"
 p3 = "subscribe this"
 p4 = "click this"
 
+message = input("Enter your comment:").lower()
+
+if message == p1 or p2 or p3 or p4:
+    print("This is a Spam comment")
+else:
+    print("This is not a Spam comment")
+
+
+
+
+#method 2
+
+
 message = input("Enter your comment: ").lower()
 
 if p1 in message or p2 in message or p3 in message or p4 in message:
-    print("This is a spam comment")
+    print("This is a Spam comment")
 else:
-    print("This is not a spam comment")
+    print("This is not a Spam comment")

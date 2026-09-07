@@ -7,4 +7,13 @@ Dear <|Name|>,
 <|Date|>
          '''
 
-print(letter.replace("<|Name|>","Sania").replace("<|Date|>","25 September 2025"))
+
+
+print(letter.replace("<|Name|>","Sania").replace("<|Date|>","25 September 2026"))
+
+
+
+
+
+
+
